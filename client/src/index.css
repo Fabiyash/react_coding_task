@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+/* .header{
+  padding: 10px;
+  display: flex;
+} */
+
+.logo-container{
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4.39931px;
+gap: 2.2px;
+
+width: 120px;
+height: 47.29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.logo{
+font-size: 1.2rem;
+
+}
+
+.head-1{
+ /* Frame 1080 */
+
+/* Auto layout */
+/* Frame 1080 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 575px;
+height: 47.29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+nav > ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > ul li {
+ /* Frame 9670 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+color: 
+#999999;
+
+width: 90px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.header-btns{
+/* Frame 1051 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 330px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.header{
+  margin-right: 250px;
+  padding-top: 20px ;
+background: #FFFFFF;
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+}
+.login-btn{
+  /* Tertiary Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px 10px 20px;
+
+width: 100px;
+height: 48px;
+border: none;
+font-weight: 500;
+
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.getstarted-btn{
+  /* Primary Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+
+width: 200px;
+height: 50px;
+
+/* Primary Colors/Crimson/Main Color - 300 */
+background: #FF6435;
+border-radius: 12px;
+color: white;
+font-weight: 500;
+border: none;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.getstarted-btn img{
+  
+}
+
+.banner{
+
+background: #200D00;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 60px 20px;
+margin-top: 20px;
+
+}
+
+.banner > h6{
+  /* Reach and connect with Top Agencies */
+
+
+
+/* Primary Colors/Crimson/Main Color - 300 */
+color: #FF6435;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.banner  h2{
+  /* Top 100 Public Relations Agencies in India (2024) */
+
+
+
+/* White */
+color: #FFFFFF;
+
+
+
+}
+
+.banner p {
+  color: #a4a4a4;
+}
+
+
+.banner span{
+  color: #FF6435;
+}
+
+
+.banner-created{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.banner-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner-logo-text{
+  font-size: small;
+}
+
+.banner-logo-text p {
+  color: #999999;
+}
+
+.banner-created-date{
+  font-size: small;
+  font-weight: 500;
+}
+
+.banner-container{
+  border-bottom: 2px solid rgb(153, 153, 153,0.3);;
+}
+
+.posts-container{
+  /* Frame 9891 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+padding: 50px 0px 0px 50px ;
+
+
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0; */
+
+}
+
+.post-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(152, 144, 138 ,0.4);
+  padding: 20px;
+}
+
+.post-start{
+ display: flex;
+ gap: 10px;
+ width: 80%;
+}
+
+
+.post-img-container img{
+  border-radius: 5px;
+}
+
+.post-span{
+
+
+background: #F5F1EA;
+border-radius: 5px;
+padding: 5px;
+font-size: 12px;
+font-weight: 600;
+color: #2a2a2a;
+
+
+}
+
+.post-info{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.post-info p{
+  color: #4D3D33;
+  font-size: medium;
+}
+
+.post-info ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.post-info ul li {
+  color: #98908A
+}
+
+.post-end > button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.post-end > button:hover{
+ background-color: #FF6435;
+ color: white;
+}
+
+.explore-container{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.explore-nav{
+  margin-left: 50px;
+}
+
+.explore-nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.explore-nav > ul li{
+  color: #4D3D33;
+}
+
+.explore-nav > ul li:last-child{
+  color: #FF6435;
+}
+
+.explore-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.explore-head{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.explore-head > h6{
+  color: #FF6435;
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.explore-head > pre{
+  text-align: center;
+  color: #4D3D33;
+  font-size: 1.3rem;
+}
+
+.explore-head > h2{
+  font-weight: 700;
+}
+
+.explore-cards{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+
+}
+
+.explore-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgb(152, 144, 138 ,0.4);
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+
+.explore-image > img{
+  width: 350px;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.explore-card-details{
+  width: 350px;
+}
+.explore-card-details > h4{
+   text-align: center;
+}
+
+.explore-card-details > button {
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.explore-card-details > button:hover{
+  background-color: #FF6435;
+  color: white;
+}
+
+
+.footer-container{
+  background: #200D00;
+  padding: 20px;
+  height: 392px;
+  margin-top: 30px;
+}
+
+.footer-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-right{
+  display: flex;
+  padding: 20px;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.footer-logos{
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logo-container{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.footer-container p,pre{
+  color: white;
+}
+
+.footer-container span{
+  color: #6e6e6e;
+}
+
+.footer-right h3{
+  color: #FF6435;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.sidebar{
+  display: none;
+}
+
+.explore-head p{
+  display: none;
+}
+
+.mbbanner{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  .head-1 > nav , .header-btns{
+      display: none;
+  }
+.sidebar{
+  display: inline;
+  margin-left: 180px;
+}
+.head-1{
+  padding-bottom: 0;
+  padding-left: 10px;
+}
+.banner-created{
+  padding: 10px;
+}
+
+.posts-container{
+  padding: 5px 0px 0px 50px;
+}
+
+.post-card{
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.post-card p{
+  overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+   width: 50%;
+}
+
+.post-card button{
+  visibility: hidden;
+}
+
+.explore-nav{
+   font-size: small;
+}
+
+.explore-head pre{
+  display: none;
+}
+
+.explore-head p{
+  display: block;
+}
+
+.explore-cards{
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.explore-cards{
+  padding: 0;
+}
+
+.pcbanner{
+  display: none;
+}
+
+.mbbanner{
+  display: block;
+  padding: 10px 0px 0px 25px;
+}
+
+.footer-container{
+  font-size: 0.6rem;
+  padding: 0;
+  margin-top: 10px;
+}
+
+
+.footer-right{
+  display: block;
+}
+}
